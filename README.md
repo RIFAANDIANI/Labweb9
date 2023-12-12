@@ -45,6 +45,7 @@ $result = mysqli_query($conn, $sql);
 ```
 
 ## OUTPUT
+![header](https://github.com/RIFAANDIANI/Labweb9/assets/115616294/17956abd-94be-4565-b105-b9afdfd971f5)
 
 # 2.  Buat file baru dengan nama footer.php
 
@@ -60,6 +61,7 @@ $result = mysqli_query($conn, $sql);
 ```
 
 ## OUTPUT
+![footer](https://github.com/RIFAANDIANI/Labweb9/assets/115616294/b325ed78-ba5a-4a80-9980-a9955445d366)
 
 # 3. Buat file baru dengan nama home.php
 
@@ -145,6 +147,7 @@ $result = mysqli_query($conn, $sql);
 </html>
 ```
 ## OUTPUT
+![home](https://github.com/RIFAANDIANI/Labweb9/assets/115616294/021af15a-e4e2-4778-bd50-440ed5dce3ce)
 
 # PERTANYAAN & TUGAS
 Implementasikan konsep modularisasi pada kode program praktikum 8 tentang database, sehingga setiap halamannya memiliki template tampilan yang sama.
@@ -207,6 +210,10 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
 </body>
 </html>
 ```
+
+## output
+![index](https://github.com/RIFAANDIANI/Labweb9/assets/115616294/d3864880-01be-4df9-86f2-ce1e65308afa)
+
 # 2. Menambah Data (Create)
 
 ```php
@@ -293,6 +300,10 @@ if (isset($_POST['submit']))
 </body>
 </html>
 ```
+
+## output
+![tambah](https://github.com/RIFAANDIANI/Labweb9/assets/115616294/31256779-8ba8-448e-b1f7-5022d9d65d06)
+
 # 3. Mengubah Data (Update)
 
 ```php
@@ -400,6 +411,12 @@ function is_select($var, $val) {
 </body>
 </html>
 ```
+
+## output
+![ubah](https://github.com/RIFAANDIANI/Labweb9/assets/115616294/aa3d8a2a-39fa-431f-9954-8c311cdcdb19)
+## hasil
+![hasil ubah](https://github.com/RIFAANDIANI/Labweb9/assets/115616294/488f0bf7-72da-4a99-aa63-3b8f694cfb3a)
+
 # 4. Menghapus data (delete)
 
 ```php
@@ -411,5 +428,8 @@ $result = mysqli_query($conn, $sql);
 header('location: index.php');
 ?>
 ```
+## output 
+![hapus](https://github.com/RIFAANDIANI/Labweb9/assets/115616294/061c96b1-8b66-4ecb-8e80-86aed2846aea)
+
 # FINISH
 
